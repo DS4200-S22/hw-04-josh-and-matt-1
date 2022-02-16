@@ -11,7 +11,8 @@ function shapeOneClicked() {
 // circle2: When this svg is mousedover a bold black border should show. On mouseout,
 //  the bold black border should disappear.
 function shapeTwoClicked() {
-    console.log('Shape Two Clicked');
+    console.log('Shape One Clicked');
+    document.getElementById("cTwo").setAttribute("class", "border"); 
 }
 
 // circle3: Add functionality such that clicking on this svg hides it from the page. 

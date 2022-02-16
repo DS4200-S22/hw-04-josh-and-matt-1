@@ -13,7 +13,6 @@ body {
 }
 
 .item {
-  /*width: 40%;*/
   padding: 15px;
 }
 
@@ -33,4 +32,9 @@ body {
 .opaque {
   fill: red;
   opacity: 0.1;
+}
+
+.border {
+  border-style: solid;
+  border: black;
 }
