@@ -17,11 +17,12 @@
 
         <div class="CircleOne">
             <svg width="200" height="200" viewBox="0 0 200 200"> 
-                <circle id="cOne" class="blue" cx="100" cy="100" r="80" />
+                <circle id="cOne" class="blue" onclick="shapeOneClicked()" cx="100" cy="100" r="80" />
                 <text id='t'
                 x="100"
                 y="100"
                 fill="#FFFFFF"
+                border="#FFFFFF"
                 text-anchor="middle"
                 alignment-baseline="middle">
                 1
@@ -31,13 +32,13 @@
 
         <div class="CircleTwo">
             <svg width="200" height="200" viewBox="0 0 200 200"> 
-                <circle id="cTwo" class="green" cx="100" cy="100" r="80" />
+                <circle id="cTwo" class="green" onclick="shapeTwoClicked()" cx="100" cy="100" r="80"/>
             </svg>
         </div>
 
         <div class="CircleThree">
             <svg width="200" height="200" viewBox="0 0 200 200"> 
-                <circle id="cThree" class="red" cx="100" cy="100" r="80" />
+                <circle id="cThree" class="red" onclick="shapeThreeClicked()" cx="100" cy="100" r="80" />
             </svg>
         </div>
     </div>
