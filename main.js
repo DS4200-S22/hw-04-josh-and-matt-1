@@ -1,4 +1,4 @@
-let timesPressed = 2000;
+let timesPressed = 0;
 
 // circle1: Add text in the center of the circle that shows how many times
 //  this svg has been clicked on. Each time the svg is clicked on, the count should update.
@@ -32,9 +32,9 @@ function shapeThreeClicked() {
 
 }
 
-function addShapeEventListeners() {
-    console.log('does this load?')
-    document.getElementById('cOne').addEventListener('click', shapeOneClicked());
-    document.getElementById('cTwo').addEventListener('mouseover', shapeTwoClicked());
-    document.getElementById('cThree').addEventListener('click', shapeThreeClicked());
-}
+// function addShapeEventListeners() {
+//     console.log('does this load?')
+//     document.getElementById('cOne').addEventListener('click', shapeOneClicked());
+//     document.getElementById('cTwo').addEventListener('mouseover', shapeTwoClicked());
+//     document.getElementById('cThree').addEventListener('click', shapeThreeClicked());
+// }

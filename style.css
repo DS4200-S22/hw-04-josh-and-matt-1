@@ -1,5 +1,6 @@
 body {
   font-family: Arial;
+  color: black;
 }
 
 h1 {
@@ -32,12 +33,14 @@ h1 {
 .green:hover {
   fill: greenyellow;
   stroke: black;
+  border: 3px solid black;
 }
 
 .red {
-  fill: red;
+  fill: purple;
   opacity: 1;
-  border: black;
+  stroke: black;
+  border: 30px solid black;
 }
 
 
