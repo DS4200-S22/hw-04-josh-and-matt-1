@@ -24,7 +24,7 @@ h1 {
 .blue {
   fill: #a6cee3;
   stroke: black;
-  border: 3px solid black;
+  stroke-width: 5px;
 }
 
 .green {
@@ -33,20 +33,20 @@ h1 {
 .green:hover {
   fill: greenyellow;
   stroke: black;
-  border: 3px solid black;
+  stroke-width: 5px;
 }
 
 .red {
   fill: purple;
   opacity: 1;
   stroke: black;
-  border: 30px solid black;
+  stroke-width: 5px;
 }
 
 
 .opaque {
   fill: red;
-  opacity: 0.1;
+  opacity: 0;
 }
 
 .border {

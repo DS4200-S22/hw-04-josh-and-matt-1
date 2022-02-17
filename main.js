@@ -10,6 +10,7 @@ function shapeOneClicked() {
 
 // circle2: When this svg is mousedover a bold black border should show. On mouseout,
 //  the bold black border should disappear.
+// Note: 
 function shapeTwoClicked() {
     console.log('Shape One Clicked');
     document.getElementById("cTwo").setAttribute("class", "border"); 
@@ -32,9 +33,11 @@ function shapeThreeClicked() {
 
 }
 
-// function addShapeEventListeners() {
-//     console.log('does this load?')
-//     document.getElementById('cOne').addEventListener('click', shapeOneClicked());
-//     document.getElementById('cTwo').addEventListener('mouseover', shapeTwoClicked());
-//     document.getElementById('cThree').addEventListener('click', shapeThreeClicked());
-// }
+// Note: This was not used in the final page, as it was simpler and just as effective to use the 
+// ":hover" css functionality.
+function addShapeEventListeners() {
+    console.log('does this load?')
+    document.getElementById('cOne').addEventListener('click', shapeOneClicked());
+    document.getElementById('cTwo').addEventListener('mouseover', shapeTwoClicked());
+    document.getElementById('cThree').addEventListener('click', shapeThreeClicked());
+}
